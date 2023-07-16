@@ -159,7 +159,7 @@ a {
     line-height: normal;
 }
 
-.about-text {
+.section-text {
     color: var(--dark-03, #757575);
     text-align: center;
     font-family: Open Sans;
@@ -194,4 +194,43 @@ a {
     font-style: normal;
     font-weight: 700;
     line-height: 30px;
+}
+
+
+/* what i do? */
+.service-wrapper {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    margin-top: 30px;
+
+}
+
+.service-card {
+    max-width: 267px;
+    border-radius: 5px;
+    background: #FFF;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+    padding: 30px 33px;
+}
+
+.card-title {
+    margin-top: 24px;
+    margin-bottom: 16px;
+    color: var(--dark-01, #181818);
+    font-family: Open Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.card-text {
+    color: var(--dark-03, #757575);
+    font-family: Open Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+    /* 175% */
 }
